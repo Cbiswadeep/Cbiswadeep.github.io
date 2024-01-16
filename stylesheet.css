@@ -133,3 +133,24 @@ h2 {
 span.highlight {
   background-color: #ffffd0;
 }
+
+
+.achievements-list {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.achievements-list li {
+  margin-bottom: 10px;
+}
+.achievement-date {
+  font-weight: bold;
+  color: #555;
+}
+.achievement-type {
+  font-style: italic;
+  color: #888;
+}
+.highlight {
+  color: #007bff;
+  font-weight: bold;
+}
