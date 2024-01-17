@@ -130,8 +130,10 @@ h2 {
   -webkit-transition: opacity .2s ease-in-out;
 }
 
-span.highlight {
+.highlight {
+  color: #ff0000;
   background-color: #ffffd0;
+  font-weight: bold;
 }
 
 
@@ -150,7 +152,39 @@ span.highlight {
   font-style: italic;
   color: #888;
 }
-.highlight {
+/* .highlight {
   color: #007bff;
   font-weight: bold;
+} */
+
+
+
+.custom-table {
+  width: 100%;
+  border: 0px;
+  border-spacing: 0px;
+  border-collapse: separate;
+  margin: 0 auto;
+}
+.custom-table td {
+  padding: 20px;
+  vertical-align: middle;
+}
+h2 {
+  color: #333; /* Change as needed */
+}
+/* .highlight {
+  color: #ffffd0; 
+  font-weight: bold;
+} */
+/* .achievements-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.achievement-date, .achievement-type {
+  font-weight: bold;
+  color: #444; /* Change as needed */
+/* } */ 
+.papertitle {
+  color: #0000ff; /* Change as needed */
 }
