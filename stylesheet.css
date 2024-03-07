@@ -81,7 +81,7 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px;
+  /* font-size: 16px; */
 }
 
 strong {
@@ -188,3 +188,122 @@ h2 {
 .papertitle {
   color: #0000ff; /* Change as needed */
 }
+
+body {
+  background-color: #efebf3; /* Light grey background */
+}
+
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.top-banner {
+  background-color: #333; /* Change the hex color to match the banner color */
+  color: white;
+  padding: 10px 20px;
+}
+
+.top-banner h1 {
+  margin: 0;
+}
+
+.navigation {
+  list-style: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222; /* Change this as well */
+  margin: 0;
+}
+
+.navigation li {
+  float: left;
+}
+
+.navigation li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigation li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+h1 {
+  color: #333;
+  text-align: center;
+}
+p {
+  color: #666;
+}
+.section {
+  margin-bottom: 20px;
+}
+.key-area {
+  margin-left: 20px;
+}
+.key-area h2 {
+  font-size: 1.2em;
+  color: #0056b3;
+}
+.key-area p {
+  color: #444;
+}
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.publications-table {
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+  border-collapse: collapse;
+}
+.publications-table h2 {
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  margin: 0;
+}
+.publications-table td {
+  padding: 20px;
+  vertical-align: top;
+}
+.publications-table .papertitle {
+  font-weight: bold;
+}
+.publications-table a {
+  text-decoration: none;
+  color: #1a0dab;
+}
+.publications-table a:hover {
+  text-decoration: underline;
+}
+.publications-table em {
+  font-style: italic;
+  color: #555;
+}
+.publication-bg {
+  background-color: #ffffd0;
+}
+
+

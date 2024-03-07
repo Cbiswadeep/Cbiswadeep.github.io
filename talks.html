@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Publications</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <style>
+            .navigation li {
+                display: inline;
+                margin-right: 20px;
+            }
+    
+            main {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 20px;
+            }
+    
+            .talk {
+                display: flex;
+                align-items: center;
+                justify-content: center; /* Centers the content horizontally */
+                background-color: #FAD2E1;
+                padding: 10px;
+                margin-bottom: 20px;
+                border-radius: 10px;
+                width: 80%; /* Adjusted to set a specific width */
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            }
+    
+            .talk img {
+                margin-right: 20px;
+                width: 80px;
+                height: auto;
+            }
+    
+            .talk div {
+                display: flex;
+                flex-direction: column;
+                align-items: center; /* Centers the text vertically and horizontally */
+                width: 100%; /* Ensures the div occupies the remaining space */
+            }
+    
+            .talk div h2 {
+                margin: 0;
+                padding: 10px;
+                width: 100%; /* Allows background color to fill the space */
+                text-align: center; /* Centers the text within the h2 */
+            }
+    
+            .talk div p {
+                text-align: center; /* Centers paragraph text */
+            }
+    
+            /* Background and heading colors for each talk */
+
+    .talk:nth-child(2) {
+        background-color: #BDE0FE;
+    }
+    .talk:nth-child(2) h2 {
+        background-color: #A6C8F2;
+    }
+
+    .talk:nth-child(3) {
+        background-color: #B4EFB0;
+    }
+    .talk:nth-child(3) h2 {
+        background-color: #9FDB92;
+    }
+
+    /* Correcting the style for the fourth article */
+    .talk:nth-child(4) {
+        background-color: #FFDFD3;
+    }
+    .talk:nth-child(4) h2 {
+        background-color: #EFCBB1; /* Ensuring it's a darker shade of the article's color */
+    }
+
+    .talk:nth-child(5) {
+    background-color: #FAD2E1;
+}
+.talk:nth-child(5) h2 {
+    background-color: #F4AAB9; /* Updated to the calculated darker shade */
+}
+        </style>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="talks.html">Talks</a></li>
+                <li><a href="data/Biswadeep_CV.pdf">CV</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Invited Talks</h1>
+    
+            <article class="talk">
+                <img src="images/GT.png" alt="Icon for Talk 1">
+                <div>
+                    <h2>2024 Georgia Tech DCL Symposium Spotlight Talk</h2>
+                    <p><b>Title: <i> Evolution Strategies in Heterogenous Recurrent Spiking Neural Network for Dynamical Control</i></b></p>
+                </div>
+            </article>
+    
+            <article class="talk">
+                <img src="images/snufa_hog.gif" alt="Icon for Talk 2">
+                <div>
+                    <h2>2023 SNUFA: Invited Talk and Poster</h2>
+                    <p><b>Title: <i> Dynamics in Diversity: Harnessing Heterogeneity in Neuronal and Synaptic Dynamics in SNNs  </i></b></p>
+                    <p><a href="https://www.youtube.com/watch?v=q8c7gIf9tpw&t=138s&ab_channel=NeuralReckoning" target="_blank" rel="noopener noreferrer">View Talk</a></p>
+                </div>
+            </article>
+    
+            <article class="talk">
+                <img src="images/icerm-logo.png" alt="Icon for Talk 3">
+                <div>
+                    <h2>2023 ICERM Workshop on Mathematical and Scientific Machine Learning</h2>
+                    <p><b>Title: <i>Learning to Predict Using Network of Spiking Neurons </i></b></p>
+                    <p> <b>Abstract</b>: The emergence of computing technologies based on the brain is offering innovative energy-efficient information processing methods. Spiking Neural Networks, regarded as the third wave of Artificial Intelligence, are based on the learning principles in the brain, making them a biologically plausible model of neural processing. Spike-Time- Dependent Plasticity (STDP) is an efficient continual learning model of synaptic plasticity based on the same principles that underlie synaptic plasticity in the brain. We present our work on a heterogeneous recurrent spiking neural network which consists of heterogeneous neurons with varying firing/relaxation dynamics. The model learns using a heterogeneous STDP model with varying learning dynamics for each synapse. The heterogeneity in neuronal and synaptic dynamics reduces the spiking activity of a Recurrent Spiking Neural Network while improving prediction performance, enabling spike-efficient learning. <a href="https://icerm.brown.edu/topical_workshops/tw-23-msml#schedule-item-5209" target="_blank" rel="noopener noreferrer">View Talk</a></p>
+                </div>
+            </article>
+    
+            <article class="talk">
+                <img src="images/logo-smc.png" alt="Icon for Talk 4">
+                <div>
+                    <h2>2019 IEEE International Conference on Systems, Man and Cybernetics (SMC)</h2>
+                    <p><b>Title: <i> Phase-Sensitive Common Spatial Pattern for EEG Classification.</i></b></p>
+                </div>
+            </article>
+        </main>
+    </body>
+    
+    
+    
+    
+    
+    
+    
+</html>
