@@ -306,4 +306,14 @@ body {
   background-color: #ffffd0;
 }
 
+ .news-updates {
+  padding: 20px;
+}
+ .news-item {
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,.1);
+  padding: 20px;
+  border-radius: 10px;
+}
 
