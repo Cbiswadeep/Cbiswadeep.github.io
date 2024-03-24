@@ -8,7 +8,7 @@ Welcome to the first class on Calculus of Variations, a fascinating branch of ma
 
 Before diving into the calculus of variations, let's start with some foundational concepts. We operate in the \(n\)-dimensional Euclidean space, \(\mathbb{R}^n\), where points can be denoted by coordinates \((x_1, x_2, ..., x_n)\). The Euclidean norm and the scalar product are given by:
 
-\[ \|x\| = \sqrt{x_1^2 + x_2^2 + ... + x_n^2} \quad \text{and} \quad \langle x, y\rangle = x_1y_1 + x_2y_2 + ... + x_ny_n,\]
+\( \|x\| = \sqrt{x_1^2 + x_2^2 + ... + x_n^2} \quad \text{and} \quad \langle x, y\rangle = x_1y_1 + x_2y_2 + ... + x_ny_n,\)
 
 respectively. These notions are essential for understanding distances and angles between vectors in our space.
 
