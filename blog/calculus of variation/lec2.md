@@ -67,9 +67,7 @@ Local minimizers must satisfy specific necessary conditions, one of the most imp
 
   
 
-$$
-\frac{d}{dt} \frac{\partial L}{\partial  \xi'}(t, \xi^*(t), \xi^{*'}(t)) = \frac{\partial L}{\partial  \xi}(t, \xi^*(t), \xi^{*'}(t))
-$$
+$$ \frac{d}{dt} \frac{\partial L}{\partial  \xi'}(t, \xi^{*}(t), \xi^{*'}(t)) = \frac{\partial L}{\partial  \xi}(t, \xi^*(t), \xi^{*'}(t)) $$
 
   
 
@@ -85,9 +83,7 @@ In problems with free end conditions, the Euler equation comes accompanied by th
 
   
 
-$$
-\frac{\partial L}{\partial  \xi'}(a, \xi^*(a), \xi^{*'}(a)) = D\phi_a(\xi^*(a)),
-$$
+$$ \frac{\partial L}{\partial  \xi'}(a, \xi^{*}(a), \xi^{*'}(a)) = D\phi_a(\xi^*(a)), $$
 
   
 
