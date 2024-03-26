@@ -10,23 +10,23 @@ We consider two primary problems:
 
 1. **Fixed Endpoint Minimization Problem**: For given endpoints $\xi_a, \xi_b \in \mathbb{R}^n$, find the curve that minimizes the integral of $L$ over $[a, b]$, subject to $\xi(a) = \xi_a$ and $\xi(b) = \xi_b$. This is formally expressed as:
 
-\[ \min \int_{a}^{b} L(t, \xi(t), \xi'(t)) \,dt \quad | \quad \xi \in C^*_1([a, b]; \mathbb{R}^n), \xi(a) = \xi_a, \xi(b) = \xi_b \]
+$$ \min \int_{a}^{b} L(t, \xi(t), \xi'(t)) \,dt \quad | \quad \xi \in C^*_1([a, b]; \mathbb{R}^n), \xi(a) = \xi_a, \xi(b) = \xi_b $$
 
 2. **Bolza Problem with Fixed Terminal Point**: For a given $\xi_b \in \mathbb{R}^n$, find the curve that minimizes the integral of $L$ plus an initial cost $\phi_a(\xi(a))$, subject to $\xi(b) = \xi_b$. It is written as:
 
-\[ \min \int_{a}^{b} L(t, \xi(t), \xi'(t)) \,dt + \phi_a(\xi(a)) \quad | \quad \xi \in C^*_1([a, b]; \mathbb{R}^n), \xi(b) = \xi_b \]
+$$ \min \int_{a}^{b} L(t, \xi(t), \xi'(t)) \,dt + \phi_a(\xi(a)) \quad | \quad \xi \in C^*_1([a, b]; \mathbb{R}^n), \xi(b) = \xi_b $$
 
 #### Necessary Conditions for Local Minimizers:
 
 For a curve $\xi \in C^*_1$ that locally minimizes either problem, there exists a constant vector $c \in \mathbb{R}^n$ satisfying for all $t \in [a, b]$:
 
-\[ \frac{\partial L}{\partial q}(t, \xi(t), \xi'(t)) = c + \int_{a}^{t} \frac{\partial L}{\partial x}(s, \xi(s), \xi'(s)) \,ds \]
+$$ \frac{\partial L}{\partial q}(t, \xi(t), \xi'(t)) = c + \int_{a}^{t} \frac{\partial L}{\partial x}(s, \xi(s), \xi'(s)) \,ds $$
 
 This equation is known as the **Integral Euler Equation**. Any curve $\xi \in C^*_1$ solving this equation for some $c \in \mathbb{R}^n$ is termed a $C^*_1$ extremal for the Lagrangian $L$.
 
 Furthermore, if $\xi$ is a local minimizer for the $C^*_1$ Bolza problem, it must also satisfy the transversality condition:
 
-\[ \frac{\partial L}{\partial q}(a, \xi(a), \xi'(a)) = D\phi_a(\xi(a)) \]
+$$ \frac{\partial L}{\partial q}(a, \xi(a), \xi'(a)) = D\phi_a(\xi(a)) $$
 
 These conditions are crucial for understanding the behavior of solutions to the optimization problems outlined.
 
