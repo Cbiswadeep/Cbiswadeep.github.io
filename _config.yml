@@ -21,7 +21,7 @@ repository               : "Cbiswadeep/Cbiswadeep.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/BC_pic.jpg"
+  avatar           : "profile.png"
   name             : "Biswadeep"
   pronouns         : "he/him"
   bio              : "I'm a fifth-year Ph.D. Student at Georgia Institute of Technology in Atlanta, Georgia. I work at the Gigascale Reliable Energy-Efficient Nanosystem (GREEN) Lab led by Prof. Saibal Mukhopadhyay"
