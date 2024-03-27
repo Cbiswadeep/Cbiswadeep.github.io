@@ -1,7 +1,7 @@
 ---
 title: 'Calculus of Variations Post 8'
-date: 2012-08-14
-permalink: /posts/calc_v/l8
+date: 2012-08-08
+permalink: /posts/2014/08/calc_v-l8
 tags:
   - cool posts
   - category1
