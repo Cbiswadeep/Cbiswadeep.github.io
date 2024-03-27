@@ -1,20 +1,46 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
+## Welcome!
 
-I'm a fifth-year Ph.D. Student at [Georgia Institute of Technology](https://www.gatech.edu/) in Atlanta, Georgia. I work at the [Gigascale Reliable Energy-Efficient Nanosystem (GREEN) Lab](https://greenlab.ece.gatech.edu/) led by Prof. [Saibal Mukhopadhyay](https://greenlab.ece.gatech.edu/members/professor/).
+I'm a fifth-year **Ph.D. Student** at the [Georgia Institute of Technology](https://www.gatech.edu/) in Atlanta, Georgia, specializing in **neuromorphic computing theory and algorithms**. My work is situated within the dynamic and innovative [Gigascale Reliable Energy-Efficient Nanosystem (GREEN) Lab](https://greenlab.ece.gatech.edu/), under the guidance of Prof. [Saibal Mukhopadhyay](https://greenlab.ece.gatech.edu/members/professor/).
 
-My research interests are in **_neuromorphic computing theory and algorithms_**. Essentially I am interested in how spiking neural networks work and learn using discrete spike events. And since these networks are notoriously difficult to train, I spend a lot of time devising interesting ways to optimize the hyperparameters to modulate the neuronal and synaptic timescales of the spiking neurons. I look into getting theoretical guarantees of learnability, stability, and convergence by using such heterogeneities.
 
-I also look into how to use these spiking neural networks for different non-cognitive applications. Previously, I have used these heterogeneous recurrent spiking neural networks (HRSNNs) for predicting chaotic dynamical systems, spatio-temporal classification. I also use event-based data to design efficient SNN models.
+### Research Interests
 
-Currently, I am very interested in looking into how I can leverage the timescales to solve constrained optimization problems. Also, I am looking into whether we can use neuromorphic plasticity rules for solving the plasticity loss problem in reinforcement learning by solving a hybrid ANN-SNN model similar to my earlier work on [FSHNN](https://arxiv.org/pdf/2104.10719.pdf).
+My academic journey is driven by a critical examination of the limitations inherent in traditional deep neural networks (DNNs), such as significant energy demands, lack of adaptability, and poor temporal processing capabilities. In pursuit of more efficient, flexible, and temporally aware computational models, my work focuses on the exploration and advancement of **spiking neural networks (SNNs)**.
+
+#### Theoretical Foundations
+
+My theoretical investigations are anchored in four key areas:
+
+- **Temporal Dimension:** Delving into the superior capabilities of SNNs in leveraging temporal information, offering new possibilities for processing sequences and time-dependent data.
+- **Event-based Processing:** Exploring the unique efficiency and precision of SNNs in managing event-based data, essential for real-time and energy-efficient computations.
+- **Robustness and Plasticity:** Enhancing neural networks' adaptability to dynamic environments and their resilience against noise and adversarial attacks, thereby creating systems that can adjust to new information while maintaining their integrity.
+- **Uncertainty:** Developing methodologies to quantify and calibrate the uncertainty in SNN predictions, especially given their distinct temporal dynamics, aiming to bolster the reliability of SNN-based decision systems.
+
+#### Practical Applications
+
+Complementing my theoretical research, I am actively involved in applying these insights to revolutionize various fields:
+
+- **Large Scale Graph Optimization:** Employing SNNs for complex optimization within large graphs, facilitating more efficient solutions in network analysis, logistics, and more.
+- **Ultra-fast Monte Carlo Simulations:** Leveraging the speed and efficiency of SNNs to enhance Monte Carlo simulations and simulations of random walks, dramatically speeding up computational tasks across finance, physics, and engineering disciplines.
+- **Spike-based Event-driven Optimal Control:** Innovating control systems powered by the dynamic and precise responses of SNNs to real-time events, setting new standards for speed and accuracy.
+
+Through a balanced emphasis on theoretical exploration and practical application, my research endeavors to expand the horizons of neuromorphic computing and establish its foundations for addressing some of the most pressing challenges of our times.
+
+
+
+
+---
+
+Feel free to navigate through the website to learn more about my projects, publications, and academic pursuits. Your insights and inquiries are always welcome!
 
 
 <!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
