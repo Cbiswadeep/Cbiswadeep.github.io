@@ -3,7 +3,7 @@ title: "Brain-Inspired Spiking Neural Network for Online Unsupervised Time Serie
 collection: publications
 permalink: /publication/2023-06-18-brain-inspired-spiking-neural-network
 excerpt: 'Introducing the Continuous Learning-based Unsupervised Recurrent Spiking Neural Network Model (CLURSNN), this paper tackles the challenge of energy and data-efficient online time series prediction in evolving dynamical systems, crucial for edge AI applications. Unlike traditional DNN-based models requiring extensive data and continuous retraining, CLURSNN leverages spike-timing dependent plasticity (STDP) for online predictions, adapting to changes in the underlying system efficiently and without the need for retraining.'
-date: 2023-06-18
+date: 2023
 venue: '2023 International Joint Conference on Neural Networks (IJCNN)'
 pages: '1-8'
 publisher: 'IEEE'

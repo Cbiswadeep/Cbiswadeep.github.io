@@ -3,7 +3,7 @@ title: "Heterogeneous Recurrent Spiking Neural Network for Spatio-Temporal Class
 collection: publications
 permalink: /publication/2022-09-22-heterogeneous-recurrent-spiking-neural-network
 excerpt: 'This paper presents a heterogeneous recurrent spiking neural network (HRSNN) with unsupervised learning for spatio-temporal classification of video activity recognition tasks. Achieving high accuracy across various datasets, the HRSNN model introduces a novel combination of architecture and learning method heterogeneity, offering performance comparable to supervised SNNs with fewer resources.'
-date: 2022-09-22
+date: 2022
 venue: 'Frontiers in Neuroscience'
 paperurl: 'https://doi.org/10.3389/fnins.2023.99451'
 citation: 'Biswadeep Chakraborty, Saibal Mukhopadhyay. (2022). "Heterogeneous Recurrent Spiking Neural Network for Spatio-Temporal Classification." <i>Frontiers in Neuroscience</i>.'
