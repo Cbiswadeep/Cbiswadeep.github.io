@@ -3,7 +3,7 @@ title: "Brain-Inspired Spatiotemporal Processing Algorithms for Efficient Event-
 collection: publications
 permalink: /publication/2023-04-17-brain-inspired-spatiotemporal-processing-algorithms
 excerpt: 'This conference presentation discusses the advancement of neuromorphic event-based cameras through brain-inspired algorithms, particularly spiking neural networks (SNNs), to enable efficient, low-power, and low-latency spatiotemporal processing for real-world applications. Highlighting the utility of SNNs in approximating spatiotemporal sequences and their event-driven training and inference for real-time performance, it also explores the role of associative memory structures in enhancing event-based perception.'
-date: 2023
+date: 2023-04-17
 venue: '2023 Design, Automation & Test in Europe Conference & Exhibition (DATE)'
 pages: '1-6'
 publisher: 'IEEE'
