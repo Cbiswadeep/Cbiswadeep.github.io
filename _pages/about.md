@@ -7,7 +7,17 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+
+I'm a fifth-year Ph.D. Student at [Georgia Institute of Technology](https://www.gatech.edu/) in Atlanta, Georgia. I work at the [Gigascale Reliable Energy-Efficient Nanosystem (GREEN) Lab](https://greenlab.ece.gatech.edu/) led by Prof. [Saibal Mukhopadhyay](https://greenlab.ece.gatech.edu/members/professor/).
+
+My research interests are in **_neuromorphic computing theory and algorithms_**. Essentially I am interested in how spiking neural networks work and learn using discrete spike events. And since these networks are notoriously difficult to train, I spend a lot of time devising interesting ways to optimize the hyperparameters to modulate the neuronal and synaptic timescales of the spiking neurons. I look into getting theoretical guarantees of learnability, stability, and convergence by using such heterogeneities.
+
+I also look into how to use these spiking neural networks for different non-cognitive applications. Previously, I have used these heterogeneous recurrent spiking neural networks (HRSNNs) for predicting chaotic dynamical systems, spatio-temporal classification. I also use event-based data to design efficient SNN models.
+
+Currently, I am very interested in looking into how I can leverage the timescales to solve constrained optimization problems. Also, I am looking into whether we can use neuromorphic plasticity rules for solving the plasticity loss problem in reinforcement learning by solving a hybrid ANN-SNN model similar to my earlier work on [FSHNN](https://arxiv.org/pdf/2104.10719.pdf).
+
+
+<!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
 A data-driven personal website
 ======
@@ -46,4 +56,4 @@ Example: editing a markdown file for a talk
 
 For more info
 ------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
