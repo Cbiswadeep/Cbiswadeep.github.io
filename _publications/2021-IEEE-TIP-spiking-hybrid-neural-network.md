@@ -3,7 +3,7 @@ title: "A Fully Spiking Hybrid Neural Network for Energy-Efficient Object Detect
 collection: publications
 permalink: /publication/2021-IEEE-TIP-spiking-hybrid-neural-network
 excerpt: 'Demonstrates a fully spiking hybrid neural network architecture that achieves high-efficiency in object detection tasks, marking a significant advancement in energy-efficient computing.'
-date: 2021
+date: 2021-05-05
 venue: 'IEEE Transactions on Image Processing, 2021'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/9591302'
 citation: 'B. Chakraborty, X. She, S. Mukhopadhyay. (2021). "A Fully Spiking Hybrid Neural Network for Energy-Efficient Object Detection." <i>IEEE Transactions on Image Processing, 2021</i>.'
