@@ -9,6 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
+
+> My complete CV is linked [here](http://cbiswadeep.github.io/files/CV.pdf)
+
+
+
 Education
 ======
 * Ph.D. in Electrical and Computer Engineering, Georgia Institute of Technology, 2024 (expected). Minor in Mathematics. Advisor: Prof. Saibal Mukhopadhyay. January 2020 - Present.
@@ -71,3 +76,6 @@ Service and Leadership
 ======
 * Mentor for six Ph.D. students through the Georgia Tech ECE Graduate Student Organization (GSO) mentorship program.
 * Senator, Georgia Tech Student Government Association, representing ECE graduate students.
+
+
+

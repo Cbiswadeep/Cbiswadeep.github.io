@@ -11,6 +11,18 @@ redirect_from:
 
 I'm a fifth-year **Ph.D. Student** at the [Georgia Institute of Technology](https://www.gatech.edu/) in Atlanta, Georgia, specializing in **neuromorphic computing theory and algorithms**. My work is situated within the dynamic and innovative [Gigascale Reliable Energy-Efficient Nanosystem (GREEN) Lab](https://greenlab.ece.gatech.edu/), under the guidance of Prof. [Saibal Mukhopadhyay](https://greenlab.ece.gatech.edu/members/professor/).
 
+## Latest News
+
+Here, I'll share the most recent updates on my projects, publications, and any upcoming events or presentations. Check back often for the latest information!
+
+- **April 3, 2024**: Happy to announce I received the **Outstanding ECE Graduate Research Assistant Award**
+- **April 1, 2024**: Excited to announce I won the **Best Presentation Award** at Georgia Tech ECE Research Rally
+- **March 27, 2024**: Happy to announce I won the **Colonel Oscar P. Cleaver Award** for my  PhD proposal dissertation at the 2024 Roger P. Webb Awards Program in the School of Electrical and Computer Engineering. Huge thanks to my advisor Prof. Saibal Mukhopadhyay and committee members Prof. Suman Datta and Prof. Justin Romberg
+- **March 28, 2024**: Excited to announce we have two papers accepted in L4DC, 2024. Thanks to my collaborators Hemant Kumawat, Beomseok Kang and Harshit Kumar.
+- **January 11, 2024**: Delighted to receive the **ECE STEER Fellowship, 2024**
+- **January 16, 2024**: Excited to share my paper, "Sparse Spiking Neural Network: Exploiting Heterogeneity in Timescales for Pruning Recurrent SNN", is accepted in ICLR 2024 as a poster presentation.
+
+
 
 ### Research Interests
 
@@ -20,9 +32,9 @@ My academic journey is driven by a critical examination of the limitations inher
 
 My theoretical investigations are anchored in four key areas:
 
-- **Temporal Dimension:** Delving into the superior capabilities of SNNs in leveraging temporal information, offering new possibilities for processing sequences and time-dependent data.
+- **Temporal Processing:** Delving into the superior capabilities of SNNs in leveraging temporal information, offering new possibilities for processing sequences and time-dependent data.
 - **Event-based Processing:** Exploring the unique efficiency and precision of SNNs in managing event-based data, essential for real-time and energy-efficient computations.
-- **Robustness and Plasticity:** Enhancing neural networks' adaptability to dynamic environments and their resilience against noise and adversarial attacks, thereby creating systems that can adjust to new information while maintaining their integrity.
+- **Plasticity:** Enhancing neural networks' adaptability to dynamic environments and their resilience against noise and adversarial attacks, thereby creating systems that can adjust to new information while maintaining their integrity.
 - **Uncertainty:** Developing methodologies to quantify and calibrate the uncertainty in SNN predictions, especially given their distinct temporal dynamics, aiming to bolster the reliability of SNN-based decision systems.
 
 #### Practical Applications
