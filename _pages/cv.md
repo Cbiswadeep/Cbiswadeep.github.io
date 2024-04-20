@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 
-> My complete CV is linked [here](http://cbiswadeep.github.io/files/CV.pdf)
+<!-- > My complete CV is linked [here](https://Cbiswadeep.github.io/files/Biswadeep_CV.pdf) -->
 
 
 
@@ -42,6 +42,22 @@ Work Experience
 
 * May 2016 - December 2017: Undergraduate Research Assistant, Advanced Embedded and Digital Systems Laboratory, Jadavpur University, West Bengal, India.
   * Worked on future 5G Communication Networks and Network Security.
+
+Skills
+======
+**Colonel Oscar P. Cleaver Award** for having the most outstanding Ph.D. dissertation proposal in 2023-24.   [Link to ECE News](https://ece.gatech.edu/news/2024/04/2024-roger-p-webb-awards-honor-outstanding-students-faculty-and-staff?utm_source=ECE+Lists+2019&utm_campaign=26111c42cd-EMAIL_CAMPAIGN_2019_08_06_08_30_COPY_01&utm_medium=email&utm_term=0_0324b14402-26111c42cd-103283083)  [YouTube](https://www.youtube.com/watch?v=rknmPvBjX4w&t=1650s&ab_channel=GeorgiaTechECE)
+**ECE STEER Fellowship 2023**  [Course Webpage]()
+**ECE Research Rally - Best Presentation Award**  [Link to ECE News](https://ece.gatech.edu/news/2024/04/ece-gso-and-sac-team-host-first-research-rally) [YouTube](https://www.youtube.com/watch?v=6sWhvxkg73U&ab_channel=GeorgiaTechECE)
+**Outstanding ECE Graduate Research Assistant Award**  
+J.P. Morgan Fellowship University Finalist 2022  
+Qualcomm Innovation Fellowship Finalist 2022  
+ICLR 2024 Travel Award  
+**MITACS Globalink Fellow**  
+**Indian Academy of Sciences Summer Research Fellow**  
+**Best Undergraduate Thesis**, Department of Electronics and Telecommunication Engineering, Jadavpur University 2019  
+**First Class with Honors & Distinction** in Bachelor of Engineering from Jadavpur University in 2019
+
+
 
 Skills
 ======
