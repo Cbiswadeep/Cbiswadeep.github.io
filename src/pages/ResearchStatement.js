@@ -86,31 +86,98 @@ const ResearchStatement = () => {
         "This thrust focuses on developing learning systems that autonomously adapt to changing environments without extensive retraining. These systems leverage neuronal diversity and dynamic adaptability to achieve robust performance.",
       image: "/research/thrust1.svg",
       keyResult: "Achieved 57% neuron sparsity while maintaining high accuracy using Lyapunov Noise Pruning.",
-      resultImage: "/research/th1_results.svg",
+      resultImage: "/research/th1_results.SVG",
       publications: [
-        { title: "Sparse Spiking Neural Network: Exploiting Heterogeneity in Timescales for Pruning Recurrent SNN.", venue: "ICLR 2024" },
-        { title: "Heterogeneous Neuronal and Synaptic Dynamics for Spike-Efficient Unsupervised Learning.", venue: "ICLR 2023" },
-        { title: "Topological Representations of Heterogeneous Learning Dynamics.", venue: "IEEE IJCNN 2024 [Oral]" },
-        { title: "Heterogeneous Recurrent Spiking Neural Network for Spatio-Temporal Classification.", venue: "Frontiers in Neuroscience 2022" },
-        { title: "Characterization of Generalizability of STDP-trained SNNs.", venue: "Frontiers in Neuroscience 2021" },
-        { title: "Online Relational Inference for Evolving Multi-agent Interacting Systems.", venue: "NeurIPS 2024" }
+        {
+          title: "Sparse Spiking Neural Network: Exploiting Heterogeneity in Timescales for Pruning Recurrent SNN.",
+          venue: "ICLR 2024",
+          link: "https://openreview.net/forum?id=0jsfesDZDq",
+          arxiv: "https://arxiv.org/pdf/2403.03409",
+        },
+        {
+          title: "Heterogeneous Neuronal and Synaptic Dynamics for Spike-Efficient Unsupervised Learning.",
+          venue: "ICLR 2023",
+          link: "https://openreview.net/forum?id=QIRtAqoXwj",
+          arxiv: "https://arxiv.org/pdf/2302.11618",
+        },
+        {
+          title: "Topological Representations of Heterogeneous Learning Dynamics.",
+          venue: "IEEE IJCNN 2024 [Oral]",
+          link: "https://ieeexplore.ieee.org/document/10650857",
+          arxiv: "https://arxiv.org/pdf/2403.12462",
+        },
+        {
+          title: "Heterogeneous Recurrent Spiking Neural Network for Spatio-Temporal Classification.",
+          venue: "Frontiers in Neuroscience 2022",
+          link: "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2023.994517/full",
+          arxiv: "https://arxiv.org/pdf/2211.04297",
+        },
+        {
+          title: "Characterization of Generalizability of STDP-trained SNNs.",
+          venue: "Frontiers in Neuroscience 2021",
+          link: "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2021.695357/full",
+          arxiv: "https://arxiv.org/pdf/2105.14677",
+        },
+        {
+          title: "Online Relational Inference for Evolving Multi-agent Interacting Systems.",
+          venue: "NeurIPS 2024",
+          link: "https://openreview.net/forum?id=miO8odRzto",
+          arxiv: "https://arxiv.org/pdf/2411.01442",
+        },
       ],
     },
     {
       description:
         "This thrust emphasizes scalable, efficient architectures designed for resource-constrained environments. These models balance computational efficiency with performance, enabling applications in robotics and beyond.",
-      image: "/research/thrust2.svg",
+      image: "/research/thrust2.SVG",
       keyResult: "Achieved 70× FLOP reduction with SPLR Neural Network for long-range temporal learning.",
       resultImage: "/research/th2_results.svg",
       publications: [
-        { title: "A Fully Spiking Hybrid Neural Network for Energy-Efficient Object Detection.", venue: "IEEE Transactions on Image Processing 2021" },
-        { title: "Brain-Inspired Spatiotemporal Processing Algorithms for Efficient Event-Based Perception.", venue: "DATE 2023" },
-        { title: "μDARTS: Model Uncertainty-Aware Differentiable Architecture Search.", venue: "IEEE Access 2022" },
-        { title: "Unsupervised 3D Object Learning through Neuron Activity Aware Plasticity.", venue: "ICLR 2023" },
-        { title: "Self-Organizing Spiking Neural Network for Continual Time Series Prediction.", venue: "IEEE IJCNN 2023" }
+        {
+          title: "A Fully Spiking Hybrid Neural Network for Energy-Efficient Object Detection.",
+          venue: "IEEE Transactions on Image Processing 2021",
+          link: "https://ieeexplore.ieee.org/document/9591302",
+          arxiv: "https://arxiv.org/pdf/2104.10719",
+        },
+        {
+          title: "Brain-Inspired Spatiotemporal Processing Algorithms for Efficient Event-Based Perception.",
+          venue: "DATE 2023",
+          link: "https://ieeexplore.ieee.org/document/10136914",
+        },
+        {
+          title: "μDARTS: Model Uncertainty-Aware Differentiable Architecture Search.",
+          venue: "IEEE Access 2022",
+          link: "https://ieeexplore.ieee.org/document/9888097",
+          arxiv: "https://arxiv.org/abs/2107.11500",
+        },
+        {
+          title: "Unsupervised 3D Object Learning through Neuron Activity Aware Plasticity.",
+          venue: "ICLR 2023",
+          link: "https://openreview.net/forum?id=mXPoBtnpMnuy",
+          arxiv: "https://arxiv.org/pdf/2302.11622",
+        },
+        {
+          title: "Brain-inspired spiking neural network for online unsupervised time series prediction.",
+          venue: "IEEE IJCNN 2023",
+          link: "https://ieeexplore.ieee.org/abstract/document/10191645",
+          arxiv: "https://arxiv.org/pdf/2304.04697",
+        },
+        {
+          title: "A Dynamical Systems-Inspired Pruning Strategy for Addressing Oversmoothing in Graph Neural Networks",
+          venue: "arxiv",
+          // link: "https://ieeexplore.ieee.org/abstract/document/10191645",
+          arxiv: "https://arxiv.org/pdf/2412.07243",
+        },
+        {
+          title: "SPLR: A Spiking Neural Network for Long-Range Temporal Dependency Learning",
+          venue: "arxiv",
+          link: "https://openreview.net/forum?id=2Ez4dhU3NG",
+          // arxiv: "https://arxiv.org/pdf/2412.07243",
+        },
       ],
     },
   ];
+  
 
 
   return (
@@ -123,7 +190,7 @@ const ResearchStatement = () => {
         </p>
         <div className="max-w-4xl mx-auto mb-8">
           <img 
-            src="/research/Slide5.svg" 
+            src="/research/overview.svg" 
             alt="Research Overview" 
             className="rounded-lg shadow-lg object-cover w-full h-full"
           />
@@ -229,82 +296,124 @@ const ResearchStatement = () => {
 
       {/* Detailed Thrusts Section */}
       <div className="mt-16">
-    <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">
-      Detailed Exploration of Research Thrusts
-    </h2>
+  <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">
+    Detailed Exploration of Research Thrusts
+  </h2>
 
-    {thrustDetails.map((thrust, index) => (
-      <div
-        key={index}
-        className="mb-16"
-        style={{ borderLeft: `4px solid ${index === 0 ? '#009193' : '#8B3EC8'}` }}
-      >
-        {/* Summary Block */}
-        <div className="mb-8">
-          <img
-            src={thrust.image}
-            alt={`Summary figure for Thrust ${index + 1}`}
-            style={{ maxWidth: '80%', height: 'auto' }}
-            className="rounded-lg shadow-lg mx-auto"
-          />
-        </div>
+  {thrustDetails.map((thrust, index) => (
+    <div
+      key={index}
+      className="mb-16 p-6 bg-white rounded-md shadow-lg"
+      style={{ borderLeft: `6px solid ${index === 0 ? '#009193' : '#8B3EC8'}` }}
+    >
+      {/* Summary Block */}
+      <div className="mb-8">
+        <img
+          src={thrust.image}
+          alt={`Summary figure for Thrust ${index + 1}`}
+          className="rounded-lg shadow-lg mx-auto"
+          style={{ maxWidth: '80%', height: 'auto' }}
+        />
+      </div>
 
-        <div className="text-center">
-          <p className="text-gray-600 mb-4">{thrust.description}</p>
-          <p
-            className="font-semibold"
-            style={{ color: index === 0 ? '#009193' : '#8B3EC8' }}
-          >
-            {thrust.keyResult}
-          </p>
-        </div>
-
-        {/* Result Figure Block */}
-        <div className="mt-8">
-          <h3
-            className="text-xl font-bold text-center mb-4"
-            style={{ color: index === 0 ? '#009193' : '#8B3EC8' }}
-          >
-            Key Result
-          </h3>
-          <img
-            src={thrust.resultImage}
-            alt={`Key result figure for Thrust ${index + 1}`}
-            style={{ maxWidth: '60%', height: 'auto' }}
-            className="rounded-lg shadow-lg mx-auto"
-          />
-        </div>
-
-        {/* Combined Publications Block */}
-        <div
-          className="mt-8 bg-gray-50 p-6 rounded-md shadow-md"
-          style={{
-            borderLeft: `4px solid ${index === 0 ? '#009193' : '#8B3EC8'}`,
-          }}
+      <div className="text-center">
+        <p className="text-gray-600 mb-4 text-lg">{thrust.description}</p>
+        <p
+          className="font-semibold text-lg"
+          style={{ color: index === 0 ? '#009193' : '#8B3EC8' }}
         >
-          <h3
-            className="text-2xl font-bold mb-4"
-            style={{ color: index === 0 ? '#009193' : '#8B3EC8' }}
-          >
-            Publications
-          </h3>
-          <ol className="list-decimal pl-6 space-y-3 text-gray-800 text-base leading-relaxed">
-            {thrust.publications.map((pub, pubIndex) => (
-              <li key={pubIndex}>
-                <span className="font-medium">{pub.title}</span>
+          {thrust.keyResult}
+        </p>
+      </div>
+
+      {/* Result Figure Block */}
+      <div className="mt-8">
+        <h3
+          className="text-xl font-bold text-center mb-4"
+          style={{ color: index === 0 ? '#009193' : '#8B3EC8' }}
+        >
+          Key Result
+        </h3>
+        <img
+          src={thrust.resultImage}
+          alt={`Key result figure for Thrust ${index + 1}`}
+          className="rounded-lg shadow-lg mx-auto"
+          style={{ maxWidth: '60%', height: 'auto' }}
+        />
+      </div>
+
+      {/* Publications Section */}
+      <div className="mt-8 bg-gray-50 p-6 rounded-md shadow-md">
+        <h3
+          className="text-2xl font-bold mb-4 text-center"
+          style={{ color: index === 0 ? '#009193' : '#8B3EC8' }}
+        >
+          Publications
+        </h3>
+        <ol className="list-decimal pl-6 space-y-6">
+          {thrust.publications.map((pub, pubIndex) => (
+            <li key={pubIndex} className="flex flex-col md:flex-row items-start md:items-center gap-4">
+              <div className="flex-1">
+                <span className="block font-medium text-lg">{pub.title}</span>
                 <span
-                  className="ml-2 px-2 py-1 rounded-md text-white text-sm font-bold"
+                  className="mt-1 inline-block px-3 py-1 rounded-full text-white text-sm font-semibold"
                   style={{
                     backgroundColor: index === 0 ? '#009193' : '#8B3EC8',
                   }}
                 >
                   {pub.venue}
                 </span>
-              </li>
-            ))}
-          </ol>
-        </div>
+              </div>
+              <div className="flex gap-4">
+                <a
+                  href={pub.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center text-blue-500 hover:text-blue-700 transition"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-5 w-5 mr-1"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M12.293 2.293a1 1 0 011.414 0l4 4a1 1 0 01-1.414 1.414L13 5.414V14a1 1 0 11-2 0V5.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                  Publication Link
+                </a>
+                {pub.arxiv && (
+                  <a
+                    href={pub.arxiv}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center text-purple-500 hover:text-purple-700 transition"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5 mr-1"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path d="M5 3a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V5a2 2 0 00-2-2H5zm0 2h10v10H5V5z" />
+                      <path
+                        fillRule="evenodd"
+                        d="M8 7a1 1 0 011-1h2a1 1 0 110 2H9v1h1a1 1 0 110 2H9a1 1 0 01-1-1v-3z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                    ArXiv Link
+                  </a>
+                )}
+              </div>
+            </li>
+          ))}
+        </ol>
       </div>
+    </div>
   ))}
 </div>
 
