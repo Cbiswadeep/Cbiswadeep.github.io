@@ -84,7 +84,7 @@ const ResearchStatement = () => {
     {
       description:
         "This thrust focuses on developing learning systems that autonomously adapt to changing environments without extensive retraining. These systems leverage neuronal diversity and dynamic adaptability to achieve robust performance.",
-      image: "/research/thrust1.svg",
+      image: "/research/th1_new.svg",
       keyResult: "Achieved 57% neuron sparsity while maintaining high accuracy using Lyapunov Noise Pruning.",
       resultImage: "/research/th1_results.SVG",
       publications: [
@@ -131,7 +131,7 @@ const ResearchStatement = () => {
         "This thrust emphasizes scalable, efficient architectures designed for resource-constrained environments. These models balance computational efficiency with performance, enabling applications in robotics and beyond.",
       image: "/research/thrust2.SVG",
       keyResult: "Achieved 70× FLOP reduction with SPLR Neural Network for long-range temporal learning.",
-      resultImage: "/research/th2_results.svg",
+      resultImage: "/research/th2_results.SVG",
       publications: [
         {
           title: "A Fully Spiking Hybrid Neural Network for Energy-Efficient Object Detection.",
@@ -171,8 +171,8 @@ const ResearchStatement = () => {
         {
           title: "SPLR: A Spiking Neural Network for Long-Range Temporal Dependency Learning",
           venue: "arxiv",
-          link: "https://openreview.net/forum?id=2Ez4dhU3NG",
-          // arxiv: "https://arxiv.org/pdf/2412.07243",
+          // link: "",
+          arxiv: "https://openreview.net/forum?id=2Ez4dhU3NG",
         },
       ],
     },
