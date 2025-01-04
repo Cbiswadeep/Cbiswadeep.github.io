@@ -8,7 +8,12 @@ import {
   ExternalLink, 
   ChevronRight, 
   Mail, 
-  Award 
+  Award,
+  Github,
+  Linkedin,
+  FileIcon,
+  BookIcon,
+  ScrollIcon
 } from 'lucide-react';
 import './Home.css';
 
@@ -16,24 +21,42 @@ function Home() {
   // Research themes showcasing your key areas of focus
   const researchThemes = [
     {
-      title: 'Learning as Control Systems',
-      description: 'Reimagining AI as a dynamical system that evolves and adapts like living organisms. Our algorithms achieve 70% better efficiency by embedding adaptability at their core.',
+      title: 'Learning as Adaptive Control Systems',
+      description: 'Pioneering a new paradigm that treats AI as dynamical systems that naturally evolve and adapt. Our Heterogeneous Recurrent SNNs achieve autonomous stability with 57% neuron sparsity while maintaining high performance.',
       icon: BrainCog,
       color: 'theme-purple'
     },
     {
-      title: 'Dynamic Neural Architecture',
-      description: 'Building neural networks that reshape themselves in real-time, like a brain forming new pathways. Our SPLR model processes data 70× faster while using less energy.',
+      title: 'Dynamic Model Architecture',
+      description: 'Developing architectures that adapt to unpredictable environments. Our SPLR model achieves 70× reduction in FLOPs through event-based computing, while FAST-CIM delivers 268 TOPS/W efficiency on ImageNet.',
       icon: Network,
       color: 'theme-blue'
     },
     {
-      title: 'Efficient Computing',
-      description: 'Designing specialized hardware that processes AI like a brain processes thoughts. Our FAST-CIM system achieves unprecedented efficiency of 268 TOPS/W.',
+      title: 'Model-Hardware Co-Design',
+      description: 'Creating specialized platforms for adaptive AI through hardware-algorithm co-design. Our MONETA platform achieves 3× power reduction, while integrating efficient memory-compute for real-time processing.',
       icon: Cpu,
       color: 'theme-red'
     }
   ];
+  const quickLinks = [
+    {
+      title: 'CV',
+      icon: FileIcon,
+      link: './Biswadeep_CV_2025_Jan.pdf'
+    },
+    {
+      title: 'Publications',
+      icon: BookIcon,
+      link: '/publications'
+    },
+    {
+      title: 'Research',
+      icon: ScrollIcon,
+      link: '/research-statement'
+    }
+  ];
+
 
   // Latest news and achievements to display on the homepage
   const news = [
@@ -74,6 +97,14 @@ function Home() {
                 Google Scholar
               </a>
               <span className="divider">•</span>
+              <a href="https://www.linkedin.com/in/biswadeepc/" 
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 className="header-link">
+                <Linkedin className="link-icon" />
+                LinkedIn
+              </a>
+              <span className="divider">•</span>
               <a href="mailto:biswadeep@gatech.edu"
                  className="header-link">
                 <Mail className="link-icon" />
@@ -82,18 +113,55 @@ function Home() {
             </div>
           </div>
         </div>
+        
+        {/* Quick Links Section */}
+        <div className="quick-links">
+          {quickLinks.map((link, index) => {
+            const IconComponent = link.icon;
+            return (
+              <Link key={index} to={link.link} className="quick-link-button">
+                <IconComponent className="quick-link-icon" />
+                {link.title}
+              </Link>
+            );
+          })}
+        </div>
       </header>
+
+
 
       {/* Research Vision Section */}
       <section className="vision-section">
         <h2>Research Vision</h2>
-        <p className="vision-text">
-          My research introduces a fundamentally new perspective: treating AI as a dynamical system that 
-          naturally evolves and adapts. While current AI systems excel in controlled environments, they 
-          struggle with unpredictable real-world dynamics. I develop frameworks that embed adaptability 
-          and resilience within the model's core, enabling continuous, asynchronous learning and 
-          self-sustaining operation.
-        </p>
+        <div className="vision-content">
+          <div className="vision-challenge">
+            <h3>Problem</h3>
+            <p>
+              Current AI systems <span className="emphasis">excel in controlled environments</span> but 
+              <span className="emphasis"> fail in unpredictable real-world settings</span>, requiring 
+              <span className="text-red-600"> constant retraining and human intervention</span>.
+            </p>
+          </div>
+          
+          <div className="vision-solution">
+            <h3>Innovation</h3>
+            <p>
+              Treating AI as <span className="emphasis">dynamical systems</span> that 
+              <span className="emphasis"> naturally evolve and adapt</span>, enabling 
+              <span className="text-blue-600"> continuous learning without human intervention</span>.
+            </p>
+          </div>
+          
+          <div className="vision-impact">
+            <h3>Applications</h3>
+            <p>
+              Enabling <span className="emphasis">resilient AI</span> for 
+              <span className="emphasis"> space robotics</span>, 
+              <span className="emphasis"> disaster response</span>, and 
+              <span className="text-green-600"> mission-critical autonomous systems</span>.
+            </p>
+          </div>
+        </div>
       </section>
 
       {/* Research Themes Grid */}

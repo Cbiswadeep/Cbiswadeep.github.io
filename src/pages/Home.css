@@ -314,3 +314,240 @@ h2 {
   margin: 0 0 24px 0;
   font-weight: 700;
 }
+
+/* Quick Links Section */
+.quick-links {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.quick-link-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.quick-link-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.quick-link-icon {
+  width: 18px;
+  height: 18px;
+}
+
+/* Research Impact Section */
+.impact-section {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  margin: 40px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.impact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.impact-card {
+  text-align: center;
+  padding: 24px;
+  background: #f7fafc;
+  border-radius: 12px;
+  transition: transform 0.2s ease;
+}
+
+.impact-card:hover {
+  transform: translateY(-4px);
+}
+
+.impact-card h3 {
+  font-size: 2.5rem;
+  color: #2b4c7e;
+  margin: 0;
+  font-weight: 700;
+}
+
+.impact-card p {
+  margin: 8px 0 0;
+  color: #4a5568;
+  font-size: 1.1rem;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .quick-links {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0 20px;
+  }
+  
+  .impact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Vision Section Styling */
+.vision-section {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  margin: 40px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.vision-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.vision-challenge,
+.vision-solution,
+.vision-impact {
+  padding: 28px;
+  border-radius: 12px;
+  background: #f8fafc;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.vision-challenge:hover,
+.vision-solution:hover,
+.vision-impact:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.vision-section h2 {
+  color: #1a365d;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.vision-section h3 {
+  font-size: 1.5rem;
+  color: #2d3748;
+  margin: 0 0 16px 0;
+  font-weight: 600;
+}
+
+.vision-section p {
+  color: #4a5568;
+  line-height: 1.8;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+/* Text Highlights and Emphasis */
+.highlight {
+  background: rgba(229, 62, 62, 0.1);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.highlight-blue {
+  background: rgba(49, 130, 206, 0.1);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.highlight-green {
+  background: rgba(56, 161, 105, 0.1);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.emphasis {
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* Color accents */
+.text-red-600 {
+  color: #dc2626;
+  font-weight: 500;
+}
+
+.text-blue-600 {
+  color: #2563eb;
+  font-weight: 500;
+}
+
+.text-green-600 {
+  color: #059669;
+  font-weight: 500;
+}
+
+/* Top borders for cards */
+.vision-challenge::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: #e53e3e;
+}
+
+.vision-solution::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: #3182ce;
+}
+
+.vision-impact::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: #38a169;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .vision-content {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .vision-section {
+    padding: 24px;
+  }
+  
+  .vision-section h3 {
+    font-size: 1.25rem;
+  }
+  
+  .vision-section p {
+    font-size: 1rem;
+  }
+}
