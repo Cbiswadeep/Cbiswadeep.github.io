@@ -1,0 +1,67 @@
+/* Math equation styling */
+.katex-display {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 1rem 0;
+    margin: 1rem 0;
+  }
+  
+  /* Custom scrollbar for math equations */
+  .katex-display::-webkit-scrollbar {
+    height: 4px;
+  }
+  
+  .katex-display::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 2px;
+  }
+  
+  .katex-display::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 2px;
+  }
+  
+  .katex-display::-webkit-scrollbar-thumb:hover {
+    background: #666;
+  }
+  
+  /* Smooth animations for interactive elements */
+  .prose a,
+  .prose code {
+    transition: all 0.2s ease-in-out;
+  }
+  
+  /* Print styles */
+  @media print {
+    .prose {
+      max-width: none;
+    }
+    
+    .prose pre {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+    
+    .katex-display {
+      page-break-inside: avoid;
+    }
+  }
+  
+  /* Dark mode support */
+  @media (prefers-color-scheme: dark) {
+    .prose {
+      color: #e5e7eb;
+    }
+    
+    .prose h1,
+    .prose h2,
+    .prose h3,
+    .prose h4 {
+      color: #f3f4f6;
+    }
+    
+    .prose code {
+      background-color: #374151;
+      color: #e5e7eb;
+    }
+  }
