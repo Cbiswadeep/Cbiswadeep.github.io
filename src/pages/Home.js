@@ -21,20 +21,37 @@ function Home() {
   // Research themes showcasing your key areas of focus
   const researchThemes = [
     {
-      title: 'Learning as Adaptive Control Systems',
-      description: 'Pioneering a new paradigm that treats AI as dynamical systems that naturally evolve and adapt. Our Heterogeneous Recurrent SNNs achieve autonomous stability with 57% neuron sparsity while maintaining high performance.',
+      title: 'Learning as Dynamical Systems',
+      description: (
+        <>
+          Pioneering a new paradigm by treating AI as <strong>evolving dynamical systems</strong> that 
+          naturally adapt to change. Our Heterogeneous Recurrent SNNs demonstrate 
+          <strong> 57% improved efficiency</strong> through adaptive control.
+        </>
+      ),
       icon: BrainCog,
       color: 'theme-purple'
     },
     {
-      title: 'Dynamic Model Architecture',
-      description: 'Developing architectures that adapt to unpredictable environments. Our SPLR model achieves 70× reduction in FLOPs through event-based computing, while FAST-CIM delivers 268 TOPS/W efficiency on ImageNet.',
+      title: 'Dynamic Neural Architecture',
+      description: (
+        <>
+          Developing innovative <strong>state space models</strong> bridging theory and hardware constraints. 
+          Our SPLR framework achieves <strong>70× reduction in FLOPs</strong> while maintaining competitive accuracy.
+        </>
+      ),
       icon: Network,
       color: 'theme-blue'
     },
     {
-      title: 'Model-Hardware Co-Design',
-      description: 'Creating specialized platforms for adaptive AI through hardware-algorithm co-design. Our MONETA platform achieves 3× power reduction, while integrating efficient memory-compute for real-time processing.',
+      title: 'Hardware-Algorithm Co-Design',
+      description: (
+        <>
+          Creating specialized compute platforms for efficient AI. Our FAST-CIM architecture achieves 
+          <strong> 268 TOPS/W efficiency</strong> and <strong>74.3% ImageNet accuracy</strong> with 
+          just 7.3M parameters.
+        </>
+      ),
       icon: Cpu,
       color: 'theme-red'
     }

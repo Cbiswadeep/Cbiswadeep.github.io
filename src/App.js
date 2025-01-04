@@ -6,6 +6,10 @@ import Teaching from './pages/Teaching';
 import Blogs from './pages/Blogs';
 import Talks from './pages/Talks';
 import News from './pages/News';
+import PublicationsList from "./pages/PublicationsList"; // Import the PublicationsList component
+import CoV1 from './pages/blogs/cov_series/CoV1'; // Import the CoV1 component
+import CoV2 from './pages/blogs/cov_series/cov2';
+
 import './App.css';
 
 // Simple component to handle active navigation state
@@ -23,6 +27,7 @@ function App() {
   return (
     <Router>
       <div className="app">
+        {/* Navigation Bar */}
         <nav className="nav">
           <div className="nav-content">
             <NavLink to="/">Home</NavLink>
@@ -31,17 +36,22 @@ function App() {
             <NavLink to="/blogs">Blog</NavLink>
             <NavLink to="/talks">Talks</NavLink>
             <NavLink to="/news">News</NavLink>
+            <NavLink to="/publications">Publications</NavLink> {/* Add Publications to Navbar */}
           </div>
         </nav>
 
+        {/* Main Content */}
         <main className="main">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/research-statement" element={<ResearchStatement />} />
             <Route path="/teaching" element={<Teaching />} />
             <Route path="/blogs" element={<Blogs />} />
+            <Route path="/blogs/cov_series/cov1" element={<CoV1 />} /> {/* Route for CoV1 */}
+            <Route path="/blogs/cov_series/cov2" element={<CoV2 />} />
             <Route path="/talks" element={<Talks />} />
             <Route path="/news" element={<News />} />
+            <Route path="/publications" element={<PublicationsList />} /> {/* Publications Route */}
           </Routes>
         </main>
       </div>
