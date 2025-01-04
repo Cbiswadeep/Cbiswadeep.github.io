@@ -60,19 +60,23 @@ function Home() {
     {
       title: 'CV',
       icon: FileIcon,
-      link: './Biswadeep_CV_2025_Jan.pdf'
+      link: './Biswadeep_CV_2025_Jan.pdf', // Keep the path relative
+      isExternal: true, // Indicate it's an external link
     },
     {
       title: 'Publications',
       icon: BookIcon,
-      link: '/publications'
+      link: '/publications',
+      isExternal: false,
     },
     {
       title: 'Research',
       icon: ScrollIcon,
-      link: '/research-statement'
-    }
+      link: '/research-statement',
+      isExternal: false,
+    },
   ];
+  
 
 
   // Latest news and achievements to display on the homepage
@@ -133,16 +137,27 @@ function Home() {
         
         {/* Quick Links Section */}
         <div className="quick-links">
-          {quickLinks.map((link, index) => {
-            const IconComponent = link.icon;
-            return (
-              <Link key={index} to={link.link} className="quick-link-button">
-                <IconComponent className="quick-link-icon" />
-                {link.title}
-              </Link>
-            );
-          })}
-        </div>
+  {quickLinks.map((link, index) => {
+    const IconComponent = link.icon;
+    return link.isExternal ? (
+      <a
+        key={index}
+        href={link.link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="quick-link-button"
+      >
+        <IconComponent className="quick-link-icon" />
+        {link.title}
+      </a>
+    ) : (
+      <Link key={index} to={link.link} className="quick-link-button">
+        <IconComponent className="quick-link-icon" />
+        {link.title}
+      </Link>
+    );
+  })}
+</div>
       </header>
 
 
