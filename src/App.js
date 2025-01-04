@@ -9,7 +9,7 @@ import Talks from './pages/Talks';
 import News from './pages/News';
 import PublicationsList from "./pages/PublicationsList";
 import CoV1 from './pages/blogs/cov_series/CoV1';
-import CoV2 from './pages/blogs/cov_series/cov2'; // Fix typo in filename
+import CoV2 from './pages/blogs/cov_series/cov2';
 import './App.css';
 
 // Simple component to handle active navigation state
@@ -25,7 +25,7 @@ const NavLink = ({ to, children }) => {
 
 function App() {
   return (
-    <Router basename="/cbiswadeep.github.io"> {/* Add basename for GitHub Pages */}
+    <Router>
       <Helmet>
         <title>My Website</title> {/* Default title */}
       </Helmet>
