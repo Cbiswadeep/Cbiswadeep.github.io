@@ -1,0 +1,184 @@
+/* ResearchStatement.css */
+
+/* Base Styles */
+.research-container {
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #1a202c;
+  line-height: 1.6;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Hero Section */
+.research-hero {
+  background: linear-gradient(135deg, #1a365d, #2b4c7e);
+  border-radius: 1rem;
+  padding: 3rem 2rem;
+  margin-bottom: 4rem;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.research-hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.research-hero p {
+  font-size: 1.25rem;
+  opacity: 0.9;
+  max-width: 42rem;
+}
+
+/* Section Styles */
+.research-section {
+  margin-bottom: 4rem;
+}
+
+.section-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #1a365d;
+  margin-bottom: 1.5rem;
+}
+
+.section-description {
+  color: #4a5568;
+  margin-bottom: 2rem;
+  max-width: 42rem;
+}
+
+/* Card Styles */
+.research-card {
+  background: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.research-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-icon {
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.card-description {
+  color: #4a5568;
+  margin-bottom: 1.5rem;
+}
+
+.card-project {
+  border-left: 4px solid #e2e8f0;
+  padding-left: 1rem;
+  transition: border-color 0.2s ease;
+}
+
+.card-project:hover {
+  border-color: #3b82f6;
+}
+
+.project-name {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.project-details {
+  font-size: 0.875rem;
+  color: #718096;
+}
+
+/* Comparison Section */
+.comparison-container {
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.comparison-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a365d;
+  margin-bottom: 1rem;
+}
+
+.comparison-description {
+  color: #4a5568;
+  margin-bottom: 2rem;
+}
+
+/* Publications Section */
+.publications-section {
+  margin-top: 4rem;
+}
+
+.publications-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #1a365d;
+  margin-bottom: 1.5rem;
+}
+
+.publication-card {
+  background: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.publication-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.publication-details {
+  font-size: 0.875rem;
+  color: #718096;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .research-hero {
+    padding: 2rem 1.5rem;
+  }
+
+  .research-hero h1 {
+    font-size: 2rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .comparison-container {
+    padding: 1.5rem;
+  }
+
+  .comparison-title {
+    font-size: 1.25rem;
+  }
+}
+

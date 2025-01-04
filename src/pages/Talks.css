@@ -1,0 +1,49 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1 {
+    color: #4A5568; /* Text-gray-800 */
+  }
+  
+  h2 {
+    color: #2D3748; /* Text-gray-800 */
+  }
+  
+  .bg-white {
+    background-color: #ffffff;
+  }
+  
+  .border-indigo-500 {
+    border-color: #5A67D8;
+  }
+  
+  a {
+    color: #5A67D8;
+    text-decoration: underline;
+  }
+  
+  a:hover {
+    color: #434190;
+    text-decoration: none;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .shadow-md {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hover\:shadow-lg:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  }
+  
+  .transition-shadow {
+    transition: box-shadow 0.3s ease;
+  }
+  

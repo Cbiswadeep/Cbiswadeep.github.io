@@ -1,0 +1,249 @@
+/* ResearchStatement.css */
+
+/* Base container styles to ensure proper page layout and readability */
+.research-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: #1a202c;
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+}
+
+/* Hero section with gradient background */
+.research-hero {
+  background: linear-gradient(135deg, #1a365d 0%, #2b4c7e 100%);
+  border-radius: 1rem;
+  padding: 3rem 2rem;
+  margin-bottom: 4rem;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.research-hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.research-hero p {
+  font-size: 1.25rem;
+  opacity: 0.9;
+  max-width: 42rem;
+}
+
+/* Section styling for consistent spacing and organization */
+.research-section {
+  margin-bottom: 4rem;
+}
+
+.section-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #1a365d;
+  margin-bottom: 1.5rem;
+}
+
+.section-description {
+  color: #4a5568;
+  margin-bottom: 2rem;
+  max-width: 42rem;
+}
+
+/* Challenge cards styling */
+.challenges-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.challenge-card {
+  background: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.challenge-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Comparison section styling */
+.comparison-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.comparison-card {
+  padding: 2rem;
+  border-radius: 0.75rem;
+}
+
+.comparison-card.traditional {
+  background: #fee2e2;
+  border: 1px solid #ef4444;
+}
+
+.comparison-card.adaptive {
+  background: #dcfce7;
+  border: 1px solid #22c55e;
+}
+
+/* Visualization styles */
+.visualization-container {
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Graph styling */
+.graph-container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin: 2rem 0;
+}
+
+.graph-line {
+  fill: none;
+  stroke-width: 2;
+  transition: stroke-dashoffset 1s ease;
+}
+
+.graph-line.traditional {
+  stroke: #ef4444;
+  stroke-dasharray: 4 2;
+}
+
+.graph-line.adaptive {
+  stroke: #22c55e;
+}
+
+/* Research thrust section styling */
+.thrust-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.thrust-card {
+  background: white;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.thrust-icon {
+  width: 48px;
+  height: 48px;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.thrust-icon.purple {
+  background: #7c3aed;
+}
+
+.thrust-icon.blue {
+  background: #3b82f6;
+}
+
+/* Results section styling */
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.result-card {
+  background: white;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .research-hero {
+    padding: 2rem 1.5rem;
+  }
+
+  .comparison-container {
+    grid-template-columns: 1fr;
+  }
+
+  .research-hero h1 {
+    font-size: 2rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .visualization-container {
+    padding: 1rem;
+  }
+
+  .graph-container {
+    height: 250px;
+  }
+}
+
+/* Animations and transitions */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Focus states for accessibility */
+.challenge-card:focus-within,
+.thrust-card:focus-within,
+.result-card:focus-within {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+/* Print styles for academic context */
+@media print {
+  .research-container {
+    max-width: none;
+    padding: 0;
+  }
+
+  .research-hero {
+    background: none;
+    color: black;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+
+  .visualization-container {
+    break-inside: avoid;
+  }
+
+  .challenge-card,
+  .thrust-card,
+  .result-card {
+    box-shadow: none;
+    border: 1px solid #e2e8f0;
+  }
+}
