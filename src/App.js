@@ -1,15 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
+import { Helmet } from 'react-helmet'; // Import Helmet for dynamic page titles
 import Home from './pages/Home';
 import ResearchStatement from './pages/ResearchStatement';
 import Teaching from './pages/Teaching';
 import Blogs from './pages/Blogs';
 import Talks from './pages/Talks';
 import News from './pages/News';
-import PublicationsList from "./pages/PublicationsList"; // Import the PublicationsList component
-import CoV1 from './pages/blogs/cov_series/CoV1'; // Import the CoV1 component
+import PublicationsList from "./pages/PublicationsList";
+import CoV1 from './pages/blogs/cov_series/CoV1';
 import CoV2 from './pages/blogs/cov_series/cov2';
-
 import './App.css';
 
 // Simple component to handle active navigation state
@@ -26,6 +26,9 @@ const NavLink = ({ to, children }) => {
 function App() {
   return (
     <Router>
+      <Helmet>
+        <title>My Website</title> {/* Default title */}
+      </Helmet>
       <div className="app">
         {/* Navigation Bar */}
         <nav className="nav">
@@ -36,22 +39,127 @@ function App() {
             <NavLink to="/blogs">Blog</NavLink>
             <NavLink to="/talks">Talks</NavLink>
             <NavLink to="/news">News</NavLink>
-            <NavLink to="/publications">Publications</NavLink> {/* Add Publications to Navbar */}
+            <NavLink to="/publications">Publications</NavLink>
           </div>
         </nav>
 
         {/* Main Content */}
         <main className="main">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/research-statement" element={<ResearchStatement />} />
-            <Route path="/teaching" element={<Teaching />} />
-            <Route path="/blogs" element={<Blogs />} />
-            <Route path="/blogs/cov_series/cov1" element={<CoV1 />} /> {/* Route for CoV1 */}
-            <Route path="/blogs/cov_series/cov2" element={<CoV2 />} />
-            <Route path="/talks" element={<Talks />} />
-            <Route path="/news" element={<News />} />
-            <Route path="/publications" element={<PublicationsList />} /> {/* Publications Route */}
+            {/* Homepage */}
+            <Route
+              path="/"
+              element={
+                <>
+                  <Helmet>
+                    <title>Home | Biswadeep</title>
+                  </Helmet>
+                  <Home />
+                </>
+              }
+            />
+
+            {/* Research Statement */}
+            <Route
+              path="/research-statement"
+              element={
+                <>
+                  <Helmet>
+                    <title>Research Statement | Biswadeep</title>
+                  </Helmet>
+                  <ResearchStatement />
+                </>
+              }
+            />
+
+            {/* Teaching */}
+            <Route
+              path="/teaching"
+              element={
+                <>
+                  <Helmet>
+                    <title>Teaching | Biswadeep</title>
+                  </Helmet>
+                  <Teaching />
+                </>
+              }
+            />
+
+            {/* Blog Main Page */}
+            <Route
+              path="/blogs"
+              element={
+                <>
+                  <Helmet>
+                    <title>Blogs | Biswadeep</title>
+                  </Helmet>
+                  <Blogs />
+                </>
+              }
+            />
+
+            {/* Blog Series: Calculus of Variations */}
+            <Route
+              path="/blogs/cov_series/cov1"
+              element={
+                <>
+                  <Helmet>
+                    <title>Introduction to Calculus of Variations | Biswadeep</title>
+                  </Helmet>
+                  <CoV1 />
+                </>
+              }
+            />
+            <Route
+              path="/blogs/cov_series/cov2"
+              element={
+                <>
+                  <Helmet>
+                    <title>Euler-Lagrange Equations | Biswadeep</title>
+                  </Helmet>
+                  <CoV2 />
+                </>
+              }
+            />
+
+            {/* Talks */}
+            <Route
+              path="/talks"
+              element={
+                <>
+                  <Helmet>
+                    <title>Talks | Biswadeep</title>
+                  </Helmet>
+                  <Talks />
+                </>
+              }
+            />
+
+            {/* News */}
+            <Route
+              path="/news"
+              element={
+                <>
+                  <Helmet>
+                    <title>News | Biswadeep</title>
+                  </Helmet>
+                  <News />
+                </>
+              }
+            />
+
+            {/* Publications */}
+            <Route
+              path="/publications"
+              element={
+                <>
+                  <Helmet>
+                    <title>Publications | Biswadeep</title>
+                  </Helmet>
+                  <PublicationsList />
+                </>
+              }
+            />
           </Routes>
         </main>
       </div>

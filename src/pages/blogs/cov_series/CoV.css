@@ -15,7 +15,7 @@
 }
 
 /* Typography */
-.title {
+.cov-container .title {
   color: #1a365d;
   font-size: 2.5rem;
   text-align: center;
@@ -24,14 +24,14 @@
   line-height: 1.3;
 }
 
-.title-subtitle {
+.cov-container .title-subtitle {
   display: block;
   font-size: 1.8rem;
   margin-top: 0.5rem;
   color: #2d4a8c;
 }
 
-.section-title {
+.cov-container .section-title {
   font-size: 1.8rem;
   color: #1a365d;
   margin: 2.5rem 0 1.5rem;

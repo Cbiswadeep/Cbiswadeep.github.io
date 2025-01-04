@@ -70,7 +70,7 @@ const OptimizationDiagrams = () => (
 const CoV1 = () => {
   return (
     <MathJaxContext>
-      <div className="blog-container">
+      <div className="cov-container">
         <div className="content-wrapper">
           <h1 className="title">
             Calculus of Variations and Optimal Control

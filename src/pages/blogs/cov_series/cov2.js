@@ -61,7 +61,7 @@ const EulerLagrangeDiagram = () => (
 const CoV2 = () => {
   return (
     <MathJaxContext>
-      <div className="blog-container">
+      <div className="cov-container">
         <div className="content-wrapper">
           <h1 className="title">
             The Euler-Lagrange Equation: A Deep Dive
