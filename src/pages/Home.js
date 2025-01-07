@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react'; // Import useEffect
 import { Link } from 'react-router-dom';
 import { 
   BrainCog, 
@@ -99,6 +99,16 @@ function Home() {
     }
   ];
 
+  // Add the ClustrMaps script dynamically
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.id = 'clustrmaps';
+    script.src = '//cdn.clustrmaps.com/map_v2.js?cl=080808&w=300&t=n&d=HVEBTibQBKqWi1hsx9cxWf9yauuHfJgjvQkVIzDjrfE&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080';
+    script.async = true;
+    document.getElementById('map-container').appendChild(script);
+  }, []);
+  
   return (
     <div className="home">
       {/* Profile Header Section */}
@@ -262,15 +272,11 @@ function Home() {
       {/* Map Widget Section */}
       <section className="map-section">
         <h2>Visitor Map</h2>
-        <div
-          dangerouslySetInnerHTML={{
-            __html:
-              '<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=HVEBTibQBKqWi1hsx9cxWf9yauuHfJgjvQkVIzDjrfE&cl=ffffff&w=a"></script>',
-          }}
-        />
+        <div id="map-container"></div>
       </section>
     </div>
   );
+  
   
 }
 
